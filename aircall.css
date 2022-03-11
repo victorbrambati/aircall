@@ -1,0 +1,100 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  margin: 0px;
+}
+h2 {
+  margin: 0px;
+}
+svg {
+  margin-left: 15px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.date {
+  color: #b4b4b4;
+}
+.name {
+  color: #000;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.hours {
+  width: 70px;
+  margin-right: 15px;
+}
+.via {
+  width: 190px;
+}
+.call {
+  border: 1px #b4b4b4 solid;
+  max-width: 350px;
+  border-radius: 12px;
+  margin: 10px 20px 10px 20px;
+  cursor: pointer;
+}
+
+.textCall {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.from {
+  font-size: 14px;
+}
+
+.fromAndVia {
+  margin: 10px 10px 10px 10px;
+}
+
+@keyframes ldio-fa23yzxov8k {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+.spinning div {
+  position: absolute;
+  width: 57px;
+  height: 57px;
+  border: 13px solid #b4b4b4;
+  border-top-color: transparent;
+  border-radius: 50%;
+}
+.spinning div {
+  animation: ldio-fa23yzxov8k 1s linear infinite;
+  top: 50px;
+  left: 50px;
+}
+.loadingio-spinner {
+  width: 41px;
+  height: 41px;
+  display: inline-block;
+  overflow: hidden;
+}
+.spinning {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(0.41);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform-origin: 0 0;
+}
+.spinning div {
+  box-sizing: content-box;
+}
